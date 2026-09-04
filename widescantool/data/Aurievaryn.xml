@@ -1,0 +1,120 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <alertbox>
+            <bg>
+                <alpha>192</alpha>
+                <blue>0</blue>
+                <green>0</green>
+                <red>0</red>
+                <visible>true</visible>
+            </bg>
+            <flags>
+                <bold>false</bold>
+                <bottom>false</bottom>
+                <draggable>true</draggable>
+                <italic>false</italic>
+                <right>false</right>
+            </flags>
+            <padding>5</padding>
+            <pos>
+                <x>1230</x>
+                <y>100</y>
+            </pos>
+            <text>
+                <alpha>255</alpha>
+                <blue>0</blue>
+                <font>Consolas</font>
+                <fonts>
+
+                </fonts>
+                <green>0</green>
+                <red>255</red>
+                <size>15</size>
+                <stroke>
+                    <alpha>255</alpha>
+                    <blue>0</blue>
+                    <green>0</green>
+                    <red>0</red>
+                    <width>0</width>
+                </stroke>
+            </text>
+        </alertbox>
+        <alertbox_default_string>!ALERT!</alertbox_default_string>
+        <area>
+            <zone105>
+                <alerts>toby,0x099</alerts>
+                <filters />
+                <name>Batallia Downs</name>
+            </zone105>
+            <zone110>
+                <alerts>drooling,0x1cb</alerts>
+                <filters />
+                <name>Rolanberry Fields</name>
+            </zone110>
+            <zone111>
+                <alerts>gargantua,0x0ce</alerts>
+                <filters />
+                <name>Beaucedine Glacier</name>
+            </zone111>
+            <zone117>
+                <alerts>0x070,ishtar,Serpopard,0x17e,0x0f2,0x0ee,0x073</alerts>
+                <filters />
+                <name>Tahrongi Canyon</name>
+            </zone117>
+            <zone118>
+                <alerts>0x1ca,buburimboo</alerts>
+                <filters />
+                <name>Buburimu Peninsula</name>
+            </zone118>
+            <zone145>
+                <alerts>vuu puqu,0x1b9</alerts>
+                <filters />
+                <name>Giddeus</name>
+            </zone145>
+            <zone147>
+                <alerts>0x0ec,0x0ea,0x236,0x234,zo&apos;khu</alerts>
+                <filters />
+                <name>Beadeaux</name>
+            </zone147>
+            <zone176>
+                <alerts>0x0bd,0x0ba,seww</alerts>
+                <filters />
+                <name>Sea Serpent Grotto</name>
+            </zone176>
+            <zone216>
+                <alerts>heqet</alerts>
+                <filters />
+                <name>Abyssea - Misareaux</name>
+            </zone216>
+            <zone24>
+                <alerts>megalobugard,0x0db,0x0bf,0x0c8</alerts>
+                <filters />
+                <name>Lufaise Meadows</name>
+            </zone24>
+            <zone25>
+                <alerts>0x0df,okyupete,0x0e7</alerts>
+                <filters />
+                <name>Misareaux Coast</name>
+            </zone25>
+            <zone253>
+                <alerts>sisyphus,kur</alerts>
+                <filters />
+                <name>Abyssea - Uleguerand</name>
+            </zone253>
+            <zone88>
+                <alerts>0x029,0x025,ankabut</alerts>
+                <filters />
+                <name>North Gustaberg [S]</name>
+            </zone88>
+            <zone96>
+                <alerts>0x028,ratatoskr</alerts>
+                <filters />
+                <name>Fort Karugo-Narugo [S]</name>
+            </zone96>
+        </area>
+        <filter_pets>true</filter_pets>
+        <worldalerts />
+        <worldfilters />
+    </global>
+</settings>

@@ -1,0 +1,81 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <aurievaryn>
+
+        </aurievaryn>
+        <autoupdate>true</autoupdate>
+        <blinking>
+            <all>
+                <always>true</always>
+                <combat>true</combat>
+                <target>true</target>
+            </all>
+            <follow>
+                <always>false</always>
+                <combat>false</combat>
+                <target>false</target>
+            </follow>
+            <others>
+                <always>false</always>
+                <combat>false</combat>
+                <target>false</target>
+            </others>
+            <party>
+                <always>false</always>
+                <combat>false</combat>
+                <target>false</target>
+            </party>
+            <self>
+                <always>false</always>
+                <combat>false</combat>
+                <target>false</target>
+            </self>
+        </blinking>
+        <others>
+
+        </others>
+        <profiles>
+            <aurievaryn_drg>
+                <body>8487</body>
+                <feet>20775</feet>
+                <hands>12583</hands>
+                <head>4391</head>
+                <legs>16679</legs>
+                <main>25342</main>
+            </aurievaryn_drg>
+        </profiles>
+        <replacements>
+            <body>
+
+            </body>
+            <face>
+
+            </face>
+            <feet>
+
+            </feet>
+            <hands>
+
+            </hands>
+            <head>
+
+            </head>
+            <legs>
+
+            </legs>
+            <main>
+
+            </main>
+            <race>
+
+            </race>
+            <ranged>
+
+            </ranged>
+            <sub>
+
+            </sub>
+        </replacements>
+    </global>
+</settings>

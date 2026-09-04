@@ -1,0 +1,19 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <call_num>14</call_num>
+        <callouts>
+            <abyssea>true</abyssea>
+            <ambuscade>true</ambuscade>
+            <charm>true</charm>
+            <dynamis>true</dynamis>
+            <htmb>true</htmb>
+            <odyssey>true</odyssey>
+            <omen>true</omen>
+            <sortie>true</sortie>
+            <vagary>true</vagary>
+        </callouts>
+        <chatmode>echo</chatmode>
+        <galli_segs_after_zone_delay>6</galli_segs_after_zone_delay>
+    </global>
+</settings>

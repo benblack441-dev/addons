@@ -1,0 +1,72 @@
+# This is a basic workflow that is manually triggered
+
+name: Create Release
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      release_name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Release Name'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  create_release:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+    - name: Send greeting
+      run: echo "Hello ${{ inputs.release_name }}"
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PUSH_KEY }}
+    - name: Update manifest.json
+      run: |
+        release_name="${{ inputs.release_name }}"
+        version="${release_name#v}"
+        download_url="https://github.com/${{ github.repository }}/releases/download/${release_name}/trust.zip"
+        jq --arg url "$download_url" --arg version "$version" '.download_url = $url | .version = $version' manifest.json > temp.json
+        mv temp.json manifest.json
+        git config --global user.name 'cyrite'
+        git config --global user.email 'cyrite@users.noreply.github.com'
+        git add manifest.json
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update version and download_url in manifest.json for release ${{ inputs.release_name }}"
+          git push origin main
+        fi
+    - name: Zip Folder
+      run: zip -r trust.zip . -x ".git/*" ".github/*" "generate_readme.sh"
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: ${{ inputs.release_name }}
+        draft: true
+        prerelease: false
+    - name: Upload Release Asset
+      id: upload-release-asset 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+        asset_path: ./trust.zip
+        asset_name: trust.zip
+        asset_content_type: application/zip

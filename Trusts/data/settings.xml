@@ -1,0 +1,698 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <auto>true</auto>
+        <language>English</language>
+        <sets>
+            <aamr>
+                <1>AAEV</1>
+                <2>Valaineral</2>
+                <3>Koru-Moru</3>
+                <4>Ulmia</4>
+                <5>Kupipi</5>
+            </aamr>
+            <aby>
+                <1>Koru-Moru</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Cherukiki</4>
+                <5>Ulmia</5>
+            </aby>
+            <adel>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Ulmia</3>
+                <4>Adelheid</4>
+                <5>Yoran-Oran (UC)</5>
+            </adel>
+            <alex>
+                <1>Selh&apos;teus</1>
+                <2>Ulmia</2>
+                <3>Qultada</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Karaha-Baruha</5>
+            </alex>
+            <amb>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Ajido-Marujido</4>
+                <5>Koru-Moru</5>
+            </amb>
+            <amb-i>
+                <1>Mihli Aliapoh</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Rughadjeen</4>
+                <5>Koru-Moru</5>
+            </amb-i>
+            <ambapril26>
+                <1>August</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Arciela</4>
+                <5>Shantotto II</5>
+            </ambapril26>
+            <ambuscade>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Ajido-Marujido</4>
+                <5>Koru-Moru</5>
+            </ambuscade>
+            <ap>
+                <1>Joachim</1>
+                <2>Kupipi</2>
+                <3>Qultada</3>
+            </ap>
+            <apex>
+                <1>Joachim</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>Ajido-Marujido</3>
+                <4>Koru-Moru</4>
+                <5>Trion</5>
+            </apex>
+            <apr26>
+                <1>August</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Arciela</4>
+                <5>Apururu (UC)</5>
+            </apr26>
+            <apr26-i>
+                <1>Joachim</1>
+                <2>Arciela</2>
+                <3>Kupipi</3>
+                <4>Valaineral</4>
+                <5>Selh&apos;teus</5>
+            </apr26-i>
+            <beads>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Lilisette II</5>
+            </beads>
+            <blm-level>
+                <1>Valaineral</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>Qultada</3>
+                <4>Ullegore</4>
+                <5>Arciela II</5>
+            </blm-level>
+            <blu>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </blu>
+            <brd>
+                <1>AAEV</1>
+                <2>Koru-Moru</2>
+                <3>Arciela</3>
+                <4>Cherukiki</4>
+                <5>Yoran-Oran (UC)</5>
+            </brd>
+            <brd-solo>
+                <1>AAEV</1>
+                <2>Qultada</2>
+                <3>Koru-Moru</3>
+                <4>Arciela</4>
+                <5>Kupipi</5>
+            </brd-solo>
+            <brd-trial>
+                <1>Apururu (UC)</1>
+                <2>Sakura</2>
+                <3>Kupofried</3>
+                <4>Arciela</4>
+                <5>Moogle</5>
+            </brd-trial>
+            <brdsolo>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Koru-Moru</3>
+                <4>Shantotto II</4>
+                <5>Ayame</5>
+            </brdsolo>
+            <brdtrial>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Koru-Moru</3>
+                <4>Kupofried</4>
+                <5>Kupipi</5>
+            </brdtrial>
+            <chaos>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Selh&apos;teus</4>
+                <5>Apururu (UC)</5>
+            </chaos>
+            <cloud>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Arciela II</4>
+                <5>Ajido-Marujido</5>
+            </cloud>
+            <combatskill>
+                <1>Joachim</1>
+                <2>Ulmia</2>
+                <3>Koru-Moru</3>
+                <4>Sakura</4>
+                <5>Yoran-Oran (UC)</5>
+            </combatskill>
+            <cor>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Joachim</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Ulmia</5>
+            </cor>
+            <cor-level>
+                <1>Valaineral</1>
+                <2>Semih Lafihna</2>
+                <3>Shantotto II</3>
+                <4>Apururu (UC)</4>
+            </cor-level>
+            <cp>
+                <1>AAEV</1>
+                <2>Sylvie (UC)</2>
+                <3>Ayame</3>
+                <4>Joachim</4>
+                <5>Shantotto II</5>
+            </cp>
+            <cp2>
+                <1>AAEV</1>
+                <2>Sylvie (UC)</2>
+                <3>Ayame</3>
+                <4>Joachim</4>
+                <5>Arciela</5>
+            </cp2>
+            <cp3>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Arciela</3>
+                <4>Joachim</4>
+                <5>Star Sibyl</5>
+            </cp3>
+            <cpo>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Joachim</3>
+                <4>Arciela</4>
+                <5>Ulmia</5>
+            </cpo>
+            <de>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Yoran-Oran (UC)</3>
+            </de>
+            <decamb>
+                <1>AAEV</1>
+                <2>Cornelia</2>
+                <3>Joachim</3>
+                <4>Shantotto II</4>
+                <5>Kupipi</5>
+            </decamb>
+            <default>
+                <1>Valaineral</1>
+                <2>Mihli Aliapoh</2>
+                <3>Tenzen</3>
+                <4>Adelheid</4>
+                <5>Joachim</5>
+            </default>
+            <dnc>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Joachim</3>
+                <4>Qultada</4>
+                <5>Apururu (UC)</5>
+            </dnc>
+            <dnccp>
+                <1>AAEV</1>
+                <2>Sylvie (UC)</2>
+                <3>Arciela</3>
+                <4>Ulmia</4>
+                <5>Kupofried</5>
+            </dnccp>
+            <empfarm>
+                <1>Yoran-Oran (UC)</1>
+                <2>Qultada</2>
+                <3>Ulmia</3>
+            </empfarm>
+            <excal-trial>
+                <1>Joachim</1>
+                <2>Arciela</2>
+                <3>Kupipi</3>
+                <4>Ulmia</4>
+                <5>Sylvie (UC)</5>
+            </excal-trial>
+            <gel>
+                <1>AAEV</1>
+                <2>Semih Lafihna</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Valaineral</4>
+            </gel>
+            <ghat>
+                <1>Brygid</1>
+                <2>Ulmia</2>
+                <3>Joachim</3>
+                <4>Kupipi</4>
+                <5>Apururu (UC)</5>
+            </ghat>
+            <ghat4>
+                <1>Joachim</1>
+                <2>Ulmia</2>
+                <3>Apururu (UC)</3>
+                <4>Kupipi</4>
+            </ghat4>
+            <headwind>
+                <1>AAEV</1>
+                <2>Sylvie (UC)</2>
+                <3>Arciela</3>
+                <4>Joachim</4>
+                <5>Kupipi</5>
+            </headwind>
+            <htmb>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Joachim</3>
+                <4>Cherukiki</4>
+                <5>Yoran-Oran (UC)</5>
+            </htmb>
+            <iroha>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Arciela II</4>
+                <5>Iroha II</5>
+            </iroha>
+            <jul26>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Kupipi</4>
+                <5>Yoran-Oran (UC)</5>
+            </jul26>
+            <jun26>
+                <1>Joachim</1>
+                <2>Koru-Moru</2>
+                <3>AAEV</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </jun26>
+            <levelg>
+                <1>Valaineral</1>
+                <2>Iroha II</2>
+                <3>Shantotto II</3>
+                <4>Apururu (UC)</4>
+            </levelg>
+            <leveling>
+                <1>Valaineral</1>
+                <2>Iroha II</2>
+                <3>Semih Lafihna</3>
+                <4>Shantotto II</4>
+                <5>Yoran-Oran (UC)</5>
+            </leveling>
+            <leveling2>
+                <1>Valaineral</1>
+                <2>Iroha II</2>
+                <3>Semih Lafihna</3>
+                <4>Shantotto II</4>
+                <5>Koru-Moru</5>
+            </leveling2>
+            <leveling3>
+                <1>AAEV</1>
+                <2>Koru-Moru</2>
+                <3>Shantotto II</3>
+                <4>Ayame</4>
+                <5>Arciela</5>
+            </leveling3>
+            <leveling4>
+                <1>AAEV</1>
+                <2>Koru-Moru</2>
+                <3>Shantotto II</3>
+                <4>Ayame</4>
+                <5>Kupipi</5>
+            </leveling4>
+            <limbus>
+                <1>AAEV</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>King of Hearts</3>
+            </limbus>
+            <magic>
+                <1>Valaineral</1>
+                <2>Tenzen</2>
+                <3>Robel-Akbel</3>
+                <4>Yoran-Oran (UC)</4>
+            </magic>
+            <maiden>
+                <1>Valaineral</1>
+                <2>Qultada</2>
+                <3>Cherukiki</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Ulmia</5>
+            </maiden>
+            <maiden-solo>
+                <1>Valaineral</1>
+                <2>Amchuchu</2>
+                <3>Joachim</3>
+                <4>Koru-Moru</4>
+                <5>Arciela</5>
+            </maiden-solo>
+            <maiden5>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Kupipi</4>
+            </maiden5>
+            <maidenn>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Qultada</3>
+                <4>Koru-Moru</4>
+                <5>Yoran-Oran (UC)</5>
+            </maidenn>
+            <master>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Sylvie (UC)</3>
+                <4>Koru-Moru</4>
+                <5>Kupipi</5>
+            </master>
+            <may26>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Qultada</3>
+                <4>Apururu (UC)</4>
+            </may26>
+            <may26solo>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Qultada</4>
+                <5>Apururu (UC)</5>
+            </may26solo>
+            <melee>
+                <1>AAEV</1>
+                <2>Arciela</2>
+                <3>Joachim</3>
+                <4>Qultada</4>
+                <5>Kupipi</5>
+            </melee>
+            <merit>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Qultada</3>
+                <4>Arciela</4>
+                <5>Koru-Moru</5>
+            </merit>
+            <merit-brd>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Koru-Moru</3>
+                <4>Qultada</4>
+                <5>Arciela</5>
+            </merit-brd>
+            <nin>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </nin>
+            <ninm>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Ulmia</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Kupipi</5>
+            </ninm>
+            <ody-a>
+                <1>AAEV</1>
+                <2>Ulmia</2>
+                <3>Arciela</3>
+                <4>Kupipi</4>
+                <5>Sylvie (UC)</5>
+            </ody-a>
+            <odyssey>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Joachim</3>
+                <4>Koru-Moru</4>
+                <5>Kupipi</5>
+            </odyssey>
+            <omen>
+                <1>August</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Sylvie (UC)</4>
+                <5>Kupipi</5>
+            </omen>
+            <otbf>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Arciela</4>
+                <5>Kupipi</5>
+            </otbf>
+            <rdm>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Ulmia</4>
+                <5>Qultada</5>
+            </rdm>
+            <rdm-1>
+                <1>Valaineral</1>
+                <2>Qultada</2>
+                <3>Ulmia</3>
+                <4>Mayakov</4>
+                <5>Yoran-Oran (UC)</5>
+            </rdm-1>
+            <rdm-2>
+                <1>Ulmia</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>Mayakov</3>
+                <4>Qultada</4>
+                <5>Koru-Moru</5>
+            </rdm-2>
+            <rdm-3>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Ulmia</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </rdm-3>
+            <rdm-3e>
+                <1>AAEV</1>
+                <2>Qultada</2>
+                <3>Ulmia</3>
+                <4>Koru-Moru</4>
+                <5>Yoran-Oran (UC)</5>
+            </rdm-3e>
+            <rdm-4>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Ulmia</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Kupipi</5>
+            </rdm-4>
+            <rdm-5>
+                <1>Koru-Moru</1>
+                <2>Ulmia</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Kupipi</4>
+                <5>Joachim</5>
+            </rdm-5>
+            <rdm-aoe-heal>
+                <1>Valaineral</1>
+                <2>Sylvie (UC)</2>
+                <3>Ayame</3>
+                <4>Joachim</4>
+                <5>Kupipi</5>
+            </rdm-aoe-heal>
+            <rdm-aug>
+                <1>August</1>
+                <2>Sylvie (UC)</2>
+                <3>Arciela</3>
+                <4>Joachim</4>
+                <5>Koru-Moru</5>
+            </rdm-aug>
+            <rdm-heal>
+                <1>AAEV</1>
+                <2>Sylvie (UC)</2>
+                <3>Ayame</3>
+                <4>Joachim</4>
+                <5>Kupipi</5>
+            </rdm-heal>
+            <rdm2>
+                <1>Valaineral</1>
+                <2>Arciela II</2>
+                <3>Ulmia</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Iroha II</5>
+            </rdm2>
+            <rdm3>
+                <1>Valaineral</1>
+                <2>Koru-Moru</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Robel-Akbel</4>
+                <5>Semih Lafihna</5>
+            </rdm3>
+            <rdmmerit>
+                <1>Sylvie (UC)</1>
+                <2>Arciela</2>
+                <3>Cornelia</3>
+                <4>Star Sibyl</4>
+                <5>Koru-Moru</5>
+            </rdmmerit>
+            <rdmsolocp>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Arciela</3>
+                <4>Koru-Moru</4>
+                <5>Shantotto II</5>
+            </rdmsolocp>
+            <rems>
+                <1>AAEV</1>
+                <2>AATT</2>
+                <3>Koru-Moru</3>
+                <4>Ulmia</4>
+                <5>Yoran-Oran (UC)</5>
+            </rems>
+            <run>
+                <1>Joachim</1>
+                <2>Koru-Moru</2>
+                <3>Ulmia</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </run>
+            <rune>
+                <1>Iroha II</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Shantotto II</4>
+                <5>Apururu (UC)</5>
+            </rune>
+            <runtp>
+                <1>Joachim</1>
+                <2>Arciela</2>
+                <3>Qultada</3>
+                <4>Ulmia</4>
+                <5>Yoran-Oran (UC)</5>
+            </runtp>
+            <sam>
+                <1>AAEV</1>
+                <2>Ulmia</2>
+                <3>Koru-Moru</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </sam>
+            <samj>
+                <1>Valaineral</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>Koru-Moru</3>
+                <4>Ayame</4>
+                <5>Joachim</5>
+            </samj>
+            <scholar>
+                <1>Valaineral</1>
+                <2>Adelheid</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Semih Lafihna</4>
+                <5>Tenzen</5>
+            </scholar>
+            <sortie>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Apururu (UC)</3>
+                <4>Star Sibyl</4>
+                <5>Kupipi</5>
+            </sortie>
+            <sortie-solo>
+                <1>AAEV</1>
+                <2>Ayame</2>
+                <3>Joachim</3>
+                <4>Koru-Moru</4>
+                <5>Kupipi</5>
+            </sortie-solo>
+            <sortie2>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Kupipi</4>
+                <5>Apururu (UC)</5>
+            </sortie2>
+            <sortie4>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Apururu (UC)</4>
+            </sortie4>
+            <sparks>
+                <1>Joachim</1>
+                <2>Yoran-Oran (UC)</2>
+                <3>Noillurie</3>
+                <4>Ajido-Marujido</4>
+                <5>Koru-Moru</5>
+            </sparks>
+            <standard>
+                <1>Valaineral</1>
+                <2>Arciela II</2>
+                <3>Ulmia</3>
+                <4>Koru-Moru</4>
+                <5>Yoran-Oran (UC)</5>
+            </standard>
+            <standard2>
+                <1>Valaineral</1>
+                <2>Ulmia</2>
+                <3>Koru-Moru</3>
+                <4>Yoran-Oran (UC)</4>
+                <5>Lilisette II</5>
+            </standard2>
+            <support>
+                <1>Valaineral</1>
+                <2>Joachim</2>
+                <3>Yoran-Oran (UC)</3>
+                <4>Koru-Moru</4>
+                <5>Arciela II</5>
+            </support>
+            <thf>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Ulmia</4>
+                <5>Yoran-Oran (UC)</5>
+            </thf>
+            <unity>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Qultada</4>
+                <5>Apururu (UC)</5>
+            </unity>
+            <vor>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Arciela</3>
+                <4>Apururu (UC)</4>
+                <5>Valaineral</5>
+            </vor>
+            <war>
+                <1>AAEV</1>
+                <2>Joachim</2>
+                <3>Koru-Moru</3>
+                <4>Qultada</4>
+                <5>Yoran-Oran (UC)</5>
+            </war>
+        </sets>
+        <wait>
+            <aftercast>3</aftercast>
+            <retr>1.25</retr>
+            <retrall>3</retrall>
+        </wait>
+    </global>
+</settings>

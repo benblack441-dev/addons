@@ -1,0 +1,14 @@
+# Project Files
+.idea
+trust.iml
+
+# Temp assets
+assets/equipment/*
+
+# Other
+plus
+premium
+scenarios
+tools
+logs
+.claude
