@@ -5,13 +5,13 @@ function check_buffs()
 	-- check party members for pet (luopan) and if they have a geo bubble cast recently as they dont appear instantly
 	for k, v in pairs(member_table) do
 		if v.pet and v.pet.incoming then
-			if v.mob.pet_index and v.geo and v.geo.id then
+			if v.mob and v.mob.pet_index and v.geo and v.geo.id then
 				--notice('pet found: '..v.mob.pet_index)
 				member_table[k].pet['pet index'] = v.mob.pet_index
 				member_table[k].pet.incoming = false
 			end
 		elseif v.pet and v.pet.incoming == false then
-			if not v.mob.pet_index and v.geo and v.geo.id and v.pet['pet index'] then
+			if v.mob and not v.mob.pet_index and v.geo and v.geo.id and v.pet['pet index'] then
 				--notice('pet lost: '..v.name..' '..member_table[k].pet['pet index'])
 				member_table[k].pet['pet index'] = nil
 				member_table[k].geo = {}
@@ -215,7 +215,7 @@ function check_buffs()
 		local trust_names = L{"Cornelia", 'Kupofried', 'Brygid', 'KuyinHathdenna', 'Moogle', 'Sakura', 'StarSibyl'}
 		
 		for member_name, v in pairs(member_table) do
-			if trust_names:contains(member_name) and v.mob.distance:sqrt() < 12.5 then
+			if trust_names:contains(member_name) and v.mob and v.mob.distance and v.mob.distance:sqrt() < 12.5 then
 				if v.indi and v.indi.id and v.indi.id and v.indi.id == 817 and Geo_Spells[v.indi.id].buff.id == buff.id and duplicate_id and not table.containskey(duplicate_id, v.indi.id) then -- cornelia
 					this_buff['ma_haste'] = 204
 					this_buff['Accuracy'] = 30
@@ -249,7 +249,7 @@ function check_buffs()
 					duplicate_id[v.indi.id] = true
 					break
 				end
-			elseif v.mob.distance:sqrt() < 6.5 and v.indi and v.indi.id  and Geo_Spells[v.indi.id].buff.id == buff.id and duplicate_id and not table.containskey(duplicate_id, v.indi.id) then 
+			elseif v.mob and v.mob.distance and v.mob.distance:sqrt() < 6.5 and v.indi and v.indi.id and Geo_Spells[v.indi.id] and Geo_Spells[v.indi.id].buff.id == buff.id and duplicate_id and not table.containskey(duplicate_id, v.indi.id) then
 				local boost = 0
 				-- check if caster is recipient to add gemancy + bonus, else its an entrust and no boost is applied
 				if table.containskey(settings.Geos, member_name:lower()) and v.indi.caster == member_name then
@@ -281,7 +281,8 @@ function check_buffs()
 					end
 				end
 			end
-			if v.geo and v.geo.id and v.mob and v.mob.pet_index and windower.ffxi.get_mob_by_index(v.mob.pet_index).distance:sqrt() < 6 and Geo_Spells[v.geo.id].buff.id == buff.id then
+			local pet_mob = v.mob and v.mob.pet_index and windower.ffxi.get_mob_by_index(v.mob.pet_index)
+			if v.geo and v.geo.id and pet_mob and pet_mob.distance and Geo_Spells[v.geo.id] and pet_mob.distance:sqrt() < 6 and Geo_Spells[v.geo.id].buff.id == buff.id then
 				local boost = 0
 				if table.containskey(settings.Geos, member_name:lower()) then
 					if settings.Geos[member_name:lower()] then 
